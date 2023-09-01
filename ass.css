@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: transparent;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("two.jpg");
+}
+.flexbox section {
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center; 
+  margin-top: auto;
+  background: white;
+  width: 100%;
+}
+#one {
+  background-image: url("one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#two {
+  background-image: url("two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#three {
+  background-image: url("three.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#four {
+  background-image: url("four.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#five {
+  background-image: url("five.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#six {
+  background-image: url("six.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#seven {
+  background-image: url("seven.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#eight {
+  background-image: url("eight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
